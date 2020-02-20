@@ -1,10 +1,12 @@
 # yahoo-scraper
-# MySQL queries & Related Info (can also be found in streamSQL.py)
+
+
+MySQL queries & Related Info (can also be found in streamSQL.py)
 ## Related Info
 user: root
 password: (leave blank)
 
-## queries
+## Queries
 CREATE DATABASE `Finance` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
 CREATE TABLE `stockActions` (
