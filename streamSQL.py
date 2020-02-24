@@ -32,7 +32,7 @@ def connect(data):
 
     try:
         con = mysql.connector.connect(host = 'localhost',
-        database='Finance', user='root', password = password, charset = 'utf8')
+        database='stocks', user='root', password = password, charset = 'utf8')
 
 
         if con.is_connected():            
